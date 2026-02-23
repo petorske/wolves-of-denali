@@ -39,4 +39,4 @@ Have feedback, suggestions, or corrections? Please reach out at [denaliwolves@pr
 
 ---
 
-*Data spans 1986 – 2024. Last updated 2026.*
+*Data spans 1986 - 2024. Last updated 2026.*
