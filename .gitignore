@@ -24,3 +24,6 @@ Thumbs.db
 # Source data files (embedded in HTML)
 *.csv
 *.xml
+
+# Supporting data folder (PDFs, CSVs, etc.)
+Data/
