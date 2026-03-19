@@ -9,7 +9,7 @@ An interactive data visualization of Denali's wolf population, built from 40 yea
 This project curates and presents publicly available information on Denali National Park's wolf population, including:
 
 ### Population Data & Visualization
-An interactive visualization of 40 years of wolf monitoring data (1986–2025) with:
+An interactive visualization of 40 years of wolf monitoring data (1986 - 2025) with:
 - **Historical wolf counts** (spring and fall)
 - **Pack size trends** across decades
 - **Population density metrics**
