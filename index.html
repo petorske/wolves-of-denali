@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wolves of Denali - 39 Years of Watching the Pack</title>
+<title>Wolves of Denali - Data on Wolves Near North America's Highest Peak</title>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -383,7 +383,7 @@
 
   .heatmap-grid {
     display: grid;
-    grid-template-columns: 100px repeat(39, 1fr);
+    grid-template-columns: 100px repeat(40, 1fr);
     gap: 2px;
     min-width: 800px;
     position: relative;
@@ -702,13 +702,13 @@
   <div class="hero-content">
     <p class="hero-tag">National Park Service · Denali National Park & Preserve</p>
     <h1>Wolves of<br><em>Denali</em></h1>
-    <p class="hero-sub">39 years of monitoring wild wolf populations near North America's highest mountain. An interactive exploration of the data from 1986 - 2024.</p>
+    <p class="hero-sub">An interactive exploration of the data on wolves near North America's highest mountain from 1986 - 2025.</p>
   </div>
 </section>
 
 <div class="stat-strip">
   <div class="stat-item">
-    <div class="stat-num">39</div>
+    <div class="stat-num">40</div>
     <div class="stat-label">Years of Data</div>
   </div>
   <div class="stat-item">
@@ -727,7 +727,7 @@
 
 <section class="context">
   <div class="reveal">
-    <p class="section-label">01 — Background</p>
+    <p class="section-label">01 › Background</p>
     <h2 class="section-title">The Longest-Running Wolf Study in Interior Alaska</h2>
     <p class="section-desc">Denali's wolves have been studied since Adolph Murie's groundbreaking fieldwork in 1939. The modern radio-collaring program launched in 1986 after park employees discovered poached wolf carcasses in 1985, sparking a decades-long commitment to understanding and protecting these packs.</p>
   </div>
@@ -753,9 +753,9 @@
 
 <section class="chart-section">
   <div class="reveal">
-    <p class="section-label">02 — Population Trends</p>
+    <p class="section-label">02 › Population Trends</p>
     <h2 class="section-title">Counting the Pack</h2>
-    <p class="section-desc">Spring counts represent late-winter survival; fall counts capture the annual boom after pup season. The gap between them reveals the packs' parenting successes or failures.</p>
+    <p class="section-desc">Spring counts represent late-winter survival; fall counts capture the annual boom after pup season. The gap between them reveals reproductive successes and mortality rates.</p>
   </div>
   <div class="chart-container reveal">
     <div class="chart-controls">
@@ -770,7 +770,7 @@
 
 <section class="pack-section">
   <div class="reveal">
-    <p class="section-label">03 — Pack Dynamics</p>
+    <p class="section-label">03 › Pack Dynamics</p>
     <h2 class="section-title">The Social Unit</h2>
     <p class="section-desc">Mean pack size fluctuates with prey availability, pup survival, and territorial conflicts. Fall packs are almost always larger than spring; the difference represents the year's pup cohort.</p>
   </div>
@@ -778,20 +778,16 @@
     <div class="pack-chart-wrap"><canvas id="packChart"></canvas></div>
     <div class="pack-insights">
       <div class="insight-card">
-        <div class="insight-value">12.4</div>
-        <div class="insight-label">Largest mean fall pack size (1990) - a year of abundant prey and high pup survival</div>
+        <div class="insight-value">12</div>
+        <div class="insight-label">Largest mean fall pack size (1990)</div>
       </div>
       <div class="insight-card">
-        <div class="insight-value">4.1</div>
-        <div class="insight-label">Smallest mean spring pack size (2009) - following a period of declining prey vulnerability</div>
+        <div class="insight-value">4</div>
+        <div class="insight-label">Smallest mean spring pack size - recorded in multiple years including 2009, 2010, and 2025</div>
       </div>
       <div class="insight-card">
-        <div class="insight-value">+2.0</div>
+        <div class="insight-value">+1.3</div>
         <div class="insight-label">Average seasonal increase from spring to fall, representing pup births</div>
-      </div>
-      <div class="insight-card">
-        <div class="insight-value">5:1</div>
-        <div class="insight-label">Typical Denali pack structure - a breeding pair plus offspring from 1 - 3 years</div>
       </div>
     </div>
   </div>
@@ -799,17 +795,17 @@
 
 <section class="density-section">
   <div class="reveal">
-    <p class="section-label">04 — Territorial Range</p>
+    <p class="section-label">04 › Territorial Range</p>
     <h2 class="section-title">Tracking the Territory</h2>
-    <p class="section-desc">As GPS collar technology improved through the 2000s, biologists could map territory boundaries more precisely, generally increasing the estimated area. But wolves per square kilometer tells the real density story.</p>
+    <p class="section-desc">Spring counts, taken in March before the summer pup season, represent late-winter survival and are considered the more reliable baseline for tracking the population through time. As GPS collar technology improved through the 2000s, territory boundaries became more precisely defined, making the monitored area increasingly consistent in recent years.</p>
   </div>
   <div class="density-chart-area reveal"><canvas id="densityChart"></canvas></div>
 </section>
 
 <section class="heatmap-section">
   <div class="reveal">
-    <p class="section-label">05 — At a Glance</p>
-    <h2 class="section-title">39 Years, One Grid</h2>
+    <p class="section-label">05 › At a Glance</p>
+    <h2 class="section-title">40 Years, One Grid</h2>
     <p class="section-desc">Each cell is one metric for one year. Hover for exact numbers.</p>
   </div>
   <div class="heatmap-wrap reveal" id="heatmapContainer"></div>
@@ -817,7 +813,7 @@
 
 <section class="timeline-section">
   <div class="reveal">
-    <p class="section-label">06 — Key Moments</p>
+    <p class="section-label">06 › Key Moments</p>
     <h2 class="section-title">Notable Events in Denali Wolf History</h2>
   </div>
   <div class="timeline reveal">
@@ -834,12 +830,12 @@
     <div class="tl-item">
       <div class="tl-year">1986</div>
       <div class="tl-title">Modern Monitoring Begins</div>
-      <p class="tl-text">Researchers L. David Mech and Layne Adams initiated a comprehensive wolf-collaring project, starting with just 4 packs and 26 wolves counted that spring. The program has continued uninterrupted for nearly four decades.</p>
+      <p class="tl-text">Researchers L. David Mech and Layne Adams initiated a comprehensive wolf-collaring project, starting with just 3 packs and 22 wolves counted that spring. The program has continued uninterrupted for nearly four decades.</p>
     </div>
     <div class="tl-item">
       <div class="tl-year">1990 - 1991</div>
       <div class="tl-title">Population Peak Era</div>
-      <p class="tl-text">The population surged to 137 wolves counted in fall 1991, with the largest mean pack sizes in the study's history. Favorable prey conditions and high pup survival drove the boom.</p>
+      <p class="tl-text">The population surged to 142 wolves counted in fall 1991, with exceptional pack sizes across the study period. Favorable prey conditions and high pup survival drove the boom.</p>
     </div>
     <div class="tl-item">
       <div class="tl-year">2007</div>
@@ -857,16 +853,16 @@
       <p class="tl-text">Tourism collapse during the pandemic put the monitoring program's funding at risk. The National Park Foundation stepped in to ensure the world's longest-running interior Alaska wolf study continued without interruption.</p>
     </div>
     <div class="tl-item">
-      <div class="tl-year">2024</div>
+      <div class="tl-year">2024 - 2025</div>
       <div class="tl-title">Where We are Now</div>
-      <p class="tl-text">The latest counts show 56 wolves in both spring and fall across 10 - 11 packs, a notable decline from the 2021 - 2022 rebound.</p>
+      <p class="tl-text">Both 2024 spring and fall counts came in at 56 wolves across 10 - 11 packs, a notable decline from the 2021 - 2022 rebound. Spring 2025 counts continued the downward trend with 46 wolves across 11 packs but surged upward in the spring with 54 wolves across 9 packs.</p>
     </div>
   </div>
 </section>
 
 <section class="methods-section">
   <div class="reveal">
-    <p class="section-label">07 — Methodology</p>
+    <p class="section-label">07 › Methodology</p>
     <h2 class="section-title">How the Data Is Gathered</h2>
     <p class="section-desc">A combination of decades-old field techniques and modern satellite technology keeps this program running across millions of acres of wilderness.</p>
   </div>
@@ -881,14 +877,14 @@
     </div>
     <div class="method-card" data-step="03">
       <h3>Map & Estimate</h3>
-      <p>A full year of telemetry locations (April - March) defines each pack's territory. Combined pack territories produce the monitored area estimate. Wolf counts divided by this area give the density - wolves per 1,000 km².</p>
+      <p>A full year of telemetry locations (April - March) defines each pack's territory. The combined monitored area adjusts each year to reflect only the area with reliable coverage. GPS collars have made these boundaries increasingly precise in recent years, avoiding the need to make assumptions about "fractional packs" at the edges. Density, calculated as wolves per 1,000 km², becomes directly comparable year to year. Applying this density to the ~17,270 km² of viable wolf habitat north of the Alaska Range yields a park-wide population estimate, though exactly what constitutes "viable habitat" varies somewhat across publications.</p>
     </div>
   </div>
 </section>
 
 <section class="contribute-section">
   <div class="reveal">
-    <p class="section-label">08 — Get Involved</p>
+    <p class="section-label">08 › Get Involved</p>
     <h2 class="section-title">Help Support Denali's Wolves</h2>
     <p class="section-desc">The field research presented here represents decades of dedicated biologists working in extreme conditions. You can contribute to wolf conservation in Denali.</p>
   </div>
@@ -921,27 +917,30 @@
       This page is an independent visualization of publicly available data by a wolf advocate and is not affiliated with or endorsed by the National Park Service.
     </p>
     <p style="margin-top: 1rem;">
-      Have feedback, suggestions, or corrections? We'd love to hear from you — please reach out at <a href="mailto:denaliwolves@proton.me">denaliwolves@proton.me</a> with fact checks, additional content ideas, or other insights about Denali's wolves.
+      Special thanks to Kaija Klauder for her contributions to data accuracy and insight on count methodology.
+    </p>
+    <p style="margin-top: 1rem;">
+      Have feedback, suggestions, or corrections? We'd love to hear from you - please reach out at <a href="mailto:denaliwolves@proton.me">denaliwolves@proton.me</a> with fact checks, additional content ideas, or other insights about Denali's wolves.
     </p>
   </div>
   <div class="footer-right">
     Visualization built 2026<br>
-    Data spans 1986 - 2024
+    Data spans 1986 - 2025
   </div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>
 const DATA = {
-  years: [1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],
-  packsSpring: [4,8,14,13,10,13,15,12,10,12,11,11,12,13,17,16,15,18,14,15,15,16,20,16,12,10,10,11,10,12,9,10,10,10,12,14,14,13,11],
-  packsFall: [4,9,14,11,11,13,15,12,12,11,11,12,12,15,18,18,14,11,14,15,17,20,14,15,11,8,9,12,11,11,10,9,11,12,12,12,14,11,10],
-  wolvesSpring: [26,37,69,98,106,111,103,68,61,59,69,78,61,69,71,87,73,75,78,66,103,93,99,65,59,71,70,49,51,52,49,72,75,70,68,93,105,81,56],
-  wolvesFall: [22,70,121,127,136,137,120,93,72,80,104,75,68,80,112,91,86,84,78,106,111,147,86,89,88,75,57,67,55,62,76,75,85,74,95,121,102,59,56],
-  packSizeSpring: [6.5,4.6,4.9,7.5,10.6,8.5,6.9,5.7,6.1,4.9,6.3,7.1,5.1,5.3,4.2,5.4,4.9,4.2,5.6,4.4,6.9,5.8,5.0,4.1,4.9,7.1,7.0,4.5,5.1,4.3,5.4,7.2,7.5,7.0,5.7,6.6,7.0,6.0,5.0],
-  packSizeFall: [5.5,7.8,8.6,11.5,12.4,10.5,8.0,7.8,6.0,7.3,9.5,6.3,5.7,5.3,6.2,5.1,6.1,7.6,5.6,7.1,6.5,7.4,6.1,5.9,8.0,9.4,6.3,5.6,5.1,5.6,7.6,8.3,7.7,6.2,7.9,10.1,7.0,5.0,5.0],
-  areaSpring: [7380,12125,15355,16810,13930,14275,13620,9900,11145,12120,12640,13080,13121,12699,14378,13802,13026,11682,16061,14630,15367,17439,17757,16607,17061,17994,18340,15473,17640,18820,17153,15231,13963,12962,15333,16359,17034,17034,15937],
-  areaFall: [8180,13150,14670,15240,13930,14275,13620,9900,11145,12045,12776,12808,12578,12699,14554,13802,12226,11682,14630,15367,17439,17757,16607,17061,17994,17994,18340,15473,17640,18820,17153,15231,13963,12962,15333,16359,17034,17034,15973]
+  years: [1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
+  packsSpring: [3,8,17,13,11,14,15,12,10,12,11,12,13,13,15,17,14,14,15,15,15,17,18,16,12,9,9,11,10,12,9,10,10,10,11,13,14,13,11,11],
+  packsFall: [5,10,16,11,10,14,15,12,11,11,11,13,12,14,16,16,13,12,14,15,15,20,14,15,11,9,10,10,10,11,11,9,11,12,12,12,14,11,10,9],
+  wolvesSpring: [22,37,75,98,109,117,103,68,61,59,69,85,66,67,75,99,68,79,78,66,103,93,99,65,59,70,70,49,51,52,51,72,75,70,65,93,105,82,56,46],
+  wolvesFall: [25,72,130,127,123,142,120,93,70,80,89,77,64,79,132,92,82,85,78,106,111,147,86,89,89,77,66,67,51,61,82,75,91,74,95,121,102,59,56,54],
+  packSizeSpring: [7,4,4,7,9,8,6,5,6,4,6,7,5,5,5,5,4,5,5,4,6,5,5,4,4,7,7,4,5,4,5,7,7,7,5,7,7,6,5,4],
+  packSizeFall: [5,7,8,11,12,10,8,7,6,7,8,5,5,5,8,5,6,7,5,7,7,7,6,5,8,8,6,6,5,5,7,8,8,6,7,10,7,5,5,6],
+  areaSpring: [7380,12125,15355,16810,13930,14275,13620,9900,11145,12120,12640,13080,13121,12699,14378,13802,13026,11682,16061,14630,15367,17439,17757,16607,17061,17994,18340,15473,17640,18820,17153,15231,13963,12962,15333,16359,17034,17034,15937,16033],
+  areaFall: [8180,13150,14670,15240,13930,14275,13620,9900,11145,12045,12776,12808,12578,12699,14554,13802,12226,11682,14630,15367,17439,17757,16607,17061,17994,17994,18340,15473,17640,18820,17153,15231,13963,12962,15333,16359,17034,17034,15937,16033]
 };
 
 DATA.densitySpring = DATA.wolvesSpring.map((w, i) => +(w / DATA.areaSpring[i] * 1000).toFixed(2));
@@ -1065,8 +1064,8 @@ new Chart(document.getElementById('densityChart').getContext('2d'), {
   data: {
     labels: DATA.years,
     datasets: [
-      { label: 'Monitored Area (km²)', data: DATA.areaFall, borderColor: C.stone, backgroundColor: 'rgba(136,150,164,0.1)', fill: true, tension: 0.3, pointRadius: 2, pointHoverRadius: 5, borderWidth: 2, yAxisID: 'yArea' },
-      { label: 'Fall Wolf Count', data: DATA.wolvesFall, borderColor: C.alpenglow, backgroundColor: 'transparent', tension: 0.3, pointRadius: 3, pointHoverRadius: 6, borderWidth: 2.5, yAxisID: 'yWolves' }
+      { label: 'Monitored Area (km²)', data: DATA.areaSpring, borderColor: C.stone, backgroundColor: 'rgba(136,150,164,0.1)', fill: true, tension: 0.3, pointRadius: 2, pointHoverRadius: 5, borderWidth: 2, yAxisID: 'yArea' },
+      { label: 'Spring Wolf Count', data: DATA.wolvesSpring, borderColor: C.alpenglow, backgroundColor: 'transparent', tension: 0.3, pointRadius: 3, pointHoverRadius: 6, borderWidth: 2.5, yAxisID: 'yWolves' }
     ]
   },
   options: {
@@ -1079,7 +1078,7 @@ new Chart(document.getElementById('densityChart').getContext('2d'), {
     scales: {
       x: { grid: gridLight, ticks: { maxTicksLimit: 15, font: { family: "'JetBrains Mono', monospace", size: 10 } } },
       yArea: { type: 'linear', position: 'right', grid: { display: false }, title: { display: true, text: 'Monitored Area (km²)', color: C.stone, font: { family: "'JetBrains Mono', monospace", size: 10 } }, ticks: { color: C.stone } },
-      yWolves: { type: 'linear', position: 'left', grid: gridLight, title: { display: true, text: 'Wolves Counted (Fall)', color: C.alpenglow, font: { family: "'JetBrains Mono', monospace", size: 10 } }, ticks: { color: C.alpenglow }, beginAtZero: true }
+      yWolves: { type: 'linear', position: 'left', grid: gridLight, title: { display: true, text: 'Wolves Counted (Spring)', color: C.alpenglow, font: { family: "'JetBrains Mono', monospace", size: 10 } }, ticks: { color: C.alpenglow }, beginAtZero: true }
     }
   }
 });
@@ -1088,12 +1087,12 @@ new Chart(document.getElementById('densityChart').getContext('2d'), {
 (function() {
   const container = document.getElementById('heatmapContainer');
   const metrics = [
-    { key: 'wolvesFall', label: 'Wolves (Fall)', min: 22, max: 147 },
-    { key: 'wolvesSpring', label: 'Wolves (Spring)', min: 26, max: 111 },
-    { key: 'packSizeFall', label: 'Pack Size (Fall)', min: 5, max: 12.4 },
-    { key: 'packSizeSpring', label: 'Pack Size (Spr)', min: 4.1, max: 10.6 },
-    { key: 'packsFall', label: 'Packs (Fall)', min: 4, max: 20 },
-    { key: 'packsSpring', label: 'Packs (Spring)', min: 4, max: 20 },
+    { key: 'wolvesFall', label: 'Wolves (Fall)', min: 25, max: 147 },
+    { key: 'wolvesSpring', label: 'Wolves (Spring)', min: 22, max: 117 },
+    { key: 'packSizeFall', label: 'Pack Size (Fall)', min: 5, max: 12 },
+    { key: 'packSizeSpring', label: 'Pack Size (Spring)', min: 4, max: 9 },
+    { key: 'packsFall', label: 'Packs (Fall)', min: 5, max: 20 },
+    { key: 'packsSpring', label: 'Packs (Spring)', min: 3, max: 18 },
   ];
 
   function heatColor(norm) {

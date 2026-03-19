@@ -1,6 +1,6 @@
 # Wolves of Denali
 
-An interactive data visualization of Denali's wolf population, built from 39 years of NPS monitoring data.
+An interactive data visualization of Denali's wolf population, built from 40 years of NPS monitoring data.
 
 **Live site:** [denaliwolves.org](https://denaliwolves.org)
 
@@ -9,7 +9,7 @@ An interactive data visualization of Denali's wolf population, built from 39 yea
 This project curates and presents publicly available information on Denali National Park's wolf population, including:
 
 ### Population Data & Visualization
-An interactive visualization of 39 years of wolf monitoring data (1986–2024) with:
+An interactive visualization of 40 years of wolf monitoring data (1986–2025) with:
 - **Historical wolf counts** (spring and fall)
 - **Pack size trends** across decades
 - **Population density metrics**
@@ -39,4 +39,4 @@ Have feedback, suggestions, or corrections? Please reach out at [denaliwolves@pr
 
 ---
 
-*Data spans 1986 - 2024. Last updated 2026.*
+*Data spans 1986 - 2025. Last updated 2026.*
