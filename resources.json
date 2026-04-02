@@ -187,7 +187,7 @@
     "authors": ["Gordon Haber", "Marybeth Holleman"],
     "organization": null,
     "year": 2013,
-    "url": null,
+    "url": "https://archive.org/details/amongwolvesgordo0000habe",
     "description": "Published posthumously, this book presents Haber's four decades of field research and advocacy in Denali. Haber documented the social complexity of wolf packs and was a prominent critic of wolf hunting and trapping near the park.",
     "tags": ["Haber", "behavior", "social structure", "advocacy", "Denali"]
   },
@@ -235,7 +235,7 @@
     "authors": ["Ramey Newell"],
     "organization": null,
     "year": 2024,
-    "url": "https://rameynewell.com/portfolio_page/a-good-wolf-2019/",
+    "url": "https://goodwolffilm.com/watch-online/",
     "description": "A feature-length documentary exploring the 40-year conflict over wolf management in the Stampede Corridor adjacent to Denali National Park. Told through three perspectives, wildlife advocates, local hunters and trappers, and NPS biologists, the film follows Wolf 1202, an aging matriarch, as humans battle over the fate of her territory. Directed by Ramey Newell.",
     "tags": ["documentary", "Stampede Corridor", "harvest", "advocacy", "Wolf 1202", "buffer zone"]
   },
@@ -262,5 +262,17 @@
     "url": "https://www.nps.gov/dena/learn/nature/wolves.htm",
     "description": "The official NPS page for the Denali Wolf Project, providing an overview of monitoring methods, research history, and current status.",
     "tags": ["NPS", "official", "overview", "monitoring"]
+  },
+  {
+    "id": "alaska-wolves-site",
+    "category": "web_resource",
+    "region": "denali",
+    "title": "Alaska Wolves - Gordon Haber's Website",
+    "authors": ["Gordon Haber"],
+    "organization": null,
+    "year": null,
+    "url": "https://www.alaskawolves.org/",
+    "description": "Gordon Haber's website featuring his research, advocacy, and media on Denali wolves. A rich resource for understanding the social complexity of Denali packs and the history of wolf conservation in the region.",
+    "tags": ["Haber", "research", "advocacy", "Denali", "social structure"]
   }
 ]
