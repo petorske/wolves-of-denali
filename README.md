@@ -1,6 +1,6 @@
 # Wolves of Denali
 
-An interactive data visualization of Denali's wolf population, built from 40 years of NPS monitoring data.
+An interactive data visualization and curated resource hub for Denali's wolf population.
 
 **Live site:** [denaliwolves.org](https://denaliwolves.org)
 
@@ -19,6 +19,13 @@ An interactive visualization of 40 years of wolf monitoring data (1986 - 2025) w
 - **Actionable resources** for supporting wolf conservation
 - **Information on current threats** (hunting pressure)
 - **Opportunities to engage** with advocacy and research efforts
+
+### Resources
+A curated, categorized library of sources on Denali and Alaska wolves, including:
+- **NPS monitoring reports** and datasets
+- **Peer-reviewed research** and foundational books
+- **Documentaries, community spaces, and web resources**
+- Coverage of both Denali and Yukon - Charley Rivers National Preserve
 
 ## Data & Attribution
 
